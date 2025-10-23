@@ -169,4 +169,5 @@ jobs:
         run: |
           echo Stopping old containers...
           cd /d D:\Bài Giảng\EProject-Phase-1\EProject-Phase-1
-          docker-compose down --remove-orphans
+          docker-compose pull
+          docker-compose up -d
